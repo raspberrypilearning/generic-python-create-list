@@ -1,19 +1,26 @@
-## Introduction
+A Python list is a type of data structure. It can hold collections of any data type, and even a mixture of data types.
 
-Add project description here. What will learners be making?
+You can create a list by giving it a name and adding the items of data in square brackets:
 
-### What you will make
+```python
+numbers = [5, 10, 15, 20]
+compass = ["north", "south", "east", "west"]
+```
 
-Add something here to showcase here, for example:
+Once a list has been created, you can add more data to the list using `append`:
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+```python
+numbers.append(25)
+print(numbers)
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+[5, 10, 15, 20, 25]
+```
 
-### What you will learn
+You can destroy a piece of data from the list using `remove`:
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+```python
+numbers.remove(5)
+print(numbers)
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+[10, 15, 20, 25]
+```

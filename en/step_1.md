@@ -1,4 +1,8 @@
-A Python list is a type of data structure. It can hold collections of any data type, and even a mixture of data types.
+A Python list is a type of data structure. It can hold collections of any data type, and even a mixture of data types. Here is an empty list:
+
+```python
+an_empty_list = []
+```
 
 You can create a list by giving it a name and adding the items of data in square brackets:
 

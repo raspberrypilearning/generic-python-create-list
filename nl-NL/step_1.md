@@ -1,30 +1,30 @@
-A Python list is a type of data structure. It can hold collections of any data type, and even a mixture of data types. Here is an empty list:
+Een Python-lijst is een type data-structuur. Het kan verzamelingen van elk gegevenstype bevatten, en zelfs een combinatie van gegevenstypes. Hier is een lege lijst:
 
 ```python
-an_empty_list = []
+een_lege_lijst = []
 ```
 
-You can create a list by giving it a name and adding the items of data inside square brackets:
+Je kunt een lijst maken door deze een naam te geven en de gegevensitems tussen vierkante haken toe te voegen:
 
 ```python
-compass = ["north", "south", "east", "west"]
+kompas = ["noord", "zuid", "oost", "west"]
 ```
 
-Once a list has been created, you can add more data to the list using `append`:
+Nadat een lijst is gemaakt, kun je meer gegevens aan de lijst toevoegen met behulp van `append`:
 
 ```python
-numbers = [5, 10, 15, 20]
-numbers.append(25)
-print(numbers)
+getallen = [5, 10, 15, 20]
+getallen.append(25)
+print(getallen)
 
 [5, 10, 15, 20, 25]
 ```
 
-You can get rid of a piece of data from the list using `remove`:
+Je kunt gegevens uit de lijst verwijderen met `remove`:
 
 ```python
-numbers.remove(5)
-print(numbers)
+getallen.remove(5)
+print(getallen)
 
 [10, 15, 20, 25]
 ```

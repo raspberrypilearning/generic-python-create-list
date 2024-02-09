@@ -1,30 +1,30 @@
-A Python list is a type of data structure. It can hold collections of any data type, and even a mixture of data types. Here is an empty list:
+Une liste Python est un type de structure de données. Elle peut contenir des collections de n'importe quel type de données, et même un mélange de types de données. Voici une liste vide :
 
 ```python
-an_empty_list = []
+liste_vide = []
 ```
 
-You can create a list by giving it a name and adding the items of data inside square brackets:
+Tu peux créer une liste en lui donnant un nom et en ajoutant les éléments de données entre crochets :
 
 ```python
-compass = ["north", "south", "east", "west"]
+boussole = ["nord", "sud", "est", "ouest"]
 ```
 
-Once a list has been created, you can add more data to the list using `append`:
+Une fois qu'une liste a été créée, tu peux y ajouter d'autres données à l'aide de `append` :
 
 ```python
-numbers = [5, 10, 15, 20]
-numbers.append(25)
-print(numbers)
+nombres = [5, 10, 15, 20]
+nombres.append(25)
+print(nombres)
 
 [5, 10, 15, 20, 25]
 ```
 
-You can get rid of a piece of data from the list using `remove`:
+Tu peux te débarrasser d'une donnée de la liste en utilisant `remove` :
 
 ```python
-numbers.remove(5)
-print(numbers)
+nombres.remove(5)
+print(nombres)
 
 [10, 15, 20, 25]
 ```
